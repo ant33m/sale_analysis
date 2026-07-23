@@ -98,3 +98,5 @@ FROM (
 ORDER BY p.profit_gained;
 
 -- 7) Are we making money overall or losing money?
+SELECT SUM(profit) AS total_profit
+FROM superstore_analysis;
